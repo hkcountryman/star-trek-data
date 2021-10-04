@@ -1,4 +1,4 @@
-const trekkers = require('../../data.json');
+const trekkers = require('../../src/data.json');
 
 exports.handler = async function(event, context) {
     return {
