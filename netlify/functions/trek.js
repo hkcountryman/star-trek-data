@@ -5,7 +5,7 @@ exports.handler = async function(event, context) {
         statusCode: 200,
         headers: {
             "Access-Control-Allow-Headers" : "*",
-            "Access-Control-Allow-Origin": "https://615b4166524ce200086b4a2d--naughty-dubinsky-1c07af.netlify.app/",
+            "Access-Control-Allow-Origin": "https://naughty-dubinsky-1c07af.netlify.app/",
             "Access-Control-Allow-Methods": "*"
         },
         body: JSON.stringify(trekkers)
