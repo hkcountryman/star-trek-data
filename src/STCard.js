@@ -30,7 +30,13 @@ export default function MediaCard(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          <Link href={props.link}>Memory Alpha</Link>
+          <Link
+            href={props.link}
+            target="_blank"
+            rel="noopener"
+          >
+            Memory Alpha
+        </Link>
         </CardActions>
       </Card>
     );
