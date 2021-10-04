@@ -1,9 +1,9 @@
 import './App.css';
 import useFetch from 'use-http';
 
-const {loading, error, data = []} = useFetch('https://naughty-dubinsky-1c07af.netlify.app/.netlify/functions/function', {}, []);
-
 function App() {
+  const {loading, error, data = []} = useFetch('https://naughty-dubinsky-1c07af.netlify.app/.netlify/functions/trek', {}, []);
+
   return (
     <>
       <h2>Star Trek Characters</h2>
