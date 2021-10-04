@@ -1,0 +1,51 @@
+[
+    {
+        "show": "TOS",
+        "crew": {
+            "Captain": "Kirk",
+            "XO": "Spock",
+            "CMO": "McCoy",
+            "Officers": ["Scott", "Sulu", "Checkov", "Uhura", "Chapel", "Rand"]
+        }
+    },
+
+    {
+        "show": "TNG",
+        "crew": {
+            "Captain": "Picard",
+            "XO": "Riker",
+            "CMO": ["Crusher", "Pulaski"],
+            "Officers": ["Data", "La Forge", "Worf", "Troi", "Yar"]
+        }
+    },
+
+    {
+        "show": "DS9",
+        "crew": {
+            "Captain": "Sisko",
+            "XO": "Kira",
+            "CMO": "Bashir",
+            "Officers": ["Odo", "Worf", "Dax", "O'Brien"]
+        }
+    },
+
+    {
+        "show": "VOY",
+        "crew": {
+            "Captain": "Janeway",
+            "XO": "Chakotay",
+            "CMO": "EMH",
+            "Officers": ["Tuvok", "Paris", "Torres", "Kim", "Seven", "Neelix"]
+        }
+    },
+
+    {
+        "show": "ENT",
+        "crew": {
+            "Captain": "Archer",
+            "XO": "T'Pol",
+            "CMO": "Phlox",
+            "Officers": ["Tucker", "Reed", "Mayweather", "Sato"]
+        }
+    }
+]

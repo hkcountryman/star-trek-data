@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import useFetch from 'use-http';
+
+const {loading, error, data = []} = useFetch('https://naughty-dubinsky-1c07af.netlify.app/.netlify/functions/function', {}, []);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h2>Star Trek Characters</h2>
+      {error && 'Error'}
+      {loading && 'Loading...'}
+      {data.map((x) => (
+        <p>{x.show}</p>
+      ))}
+    </>
   );
 }
 
