@@ -2,7 +2,7 @@ import './App.css';
 import useFetch from 'use-http';
 
 function App() {
-  const {loading, error, data = []} = useFetch('https://naughty-dubinsky-1c07af.netlify.app/.netlify/functions/trek', {}, []);
+  const {loading, error, data = []} = useFetch('https://star-trek-cors-and-lambda-example.netlify.app/.netlify/functions/trek', {}, []);
 
   return (
     <>
